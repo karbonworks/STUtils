@@ -46,8 +46,8 @@
 #import "STRandomization.h"
 
 // UIKit
-#if TARGET_OS_IPHONE
-#import "CLLocation+STAdditions.h"
-#import "STEditableTableViewCell.h"
-#import "STLoginViewController.h"
-#endif
+//#if TARGET_OS_IPHONE
+//#import "CLLocation+STAdditions.h"
+//#import "STEditableTableViewCell.h"
+//#import "STLoginViewController.h"
+//#endif

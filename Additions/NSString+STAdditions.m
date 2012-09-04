@@ -27,6 +27,8 @@
 //
 
 #import "STUtils.h"
+#import <CommonCrypto/CommonCrypto.h>
+#import <KarbonBase/NSData+Base64.h>
 
 
 @implementation NSString (STAdditions)
@@ -220,7 +222,7 @@
 - (NSString *)base64String;
 {
     NSData *stringData = [self dataUsingEncoding:NSUTF8StringEncoding];
-    return [stringData base64EncodedString];
+    return [stringData kb_base64EncodedString];
 }
 
 #pragma mark UUIDs
